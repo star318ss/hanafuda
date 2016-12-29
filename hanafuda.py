@@ -21,6 +21,7 @@ print idata_np
 
 #idata[0]=sors of n,[1]=cut time
 #hanahuda time
+
 hanafuda=np.arange(1,idata_np[0,0]+1)
 hanafuda=hanafuda[::-1] #reverse
 cut_time=idata_np[0,1]
